@@ -2,13 +2,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/gdscjgec">
-    <img src="" alt="Logo" width="80" height="80">
+    <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/12/trend-analysis-featured-image-5fd86ec3e9583-760x400.jpg" alt="Logo" width="600" height="300">
   </a>
 
   <h3 align="center">UpTrend</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A one place destination to check whatever is trending on the top social and news websites at present.
     <br />
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
@@ -50,20 +50,20 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sequi
-voluptate dicta id. Nulla recusandae voluptatem nostrum officiis, quaerat
-suscipit tempora ducimus, fuga iste eaque esse voluptate. Voluptatem,
-dolores quisquam.
+The motive of this project is to scrape trending stuff from top websites which are mostly visited on a daily basis by users and show them in a single page application consisting of links to trending stuff.
+For the purpose of hacktoberfest we will be currently focusing on scraping trending data from 
+1) Youtube
+2) Reddit
+3) Instagram
+4) CNN top stories
+5) more will be added with progress........
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+The dependancies currently consist of the following,
 
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
-- [Laravel](https://laravel.com)
+- [Flask](https://flask-doc.readthedocs.io/en/latest/)
+- [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/)
 
 <!-- GETTING STARTED -->
 
