@@ -84,17 +84,17 @@ Follow the steps below to set-up the project on your local machine,
 ### Installation
 
 1. Start by creating a virtual environment for the project by using the following command,
-``` python -m venv <name>```
+   ``` python -m venv <name>```
 2. Activate the virtual environment by using the following command,
-``` <name>/scripts/activate```
+   ``` <name>/scripts/activate```
 3. Install required dependencies from requirements.txt using the following command,
-```pip install -r requirements.txt```
+   ```pip install -r requirements.txt```
 
-Tip: If you install new dependencies while submiting a PR, please do not forget to update requiremnts.txt. You can use the following command to save yourself the trouble
-```pip freeze > requirements.txt```
+   Tip: If you install new dependencies while submiting a PR, please do not forget to update requiremnts.txt. You can use the following command to save yourself the trouble
+        ```pip freeze > requirements.txt```
 
 4. Now, you can run the project by using the command 
-```python app.py```
+   ```python app.py```
 
 <!-- USAGE EXAMPLES -->
 
