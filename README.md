@@ -97,7 +97,7 @@ Follow the steps below to set-up the project on your local machine,
 
 ## Roadmap
 
-See the [open issues](https://github.com/gdscjgec) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/gdscjgec/UpTrend/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
