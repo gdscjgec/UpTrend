@@ -38,7 +38,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -76,11 +75,6 @@ Follow the steps below to set-up the project on your local machine,
 1) Python (3.6 and above)
 2) pip (python package installer)
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1. Start by creating a virtual environment for the project by using the following command,
@@ -90,7 +84,7 @@ Follow the steps below to set-up the project on your local machine,
 3. Install required dependencies from requirements.txt using the following command,
    ```pip install -r requirements.txt```
 
-   Tip: If you install new dependencies while submiting a PR, please do not forget to update requiremnts.txt. You can use the following command to save yourself the trouble
+   **Tip:** If you install new dependencies while submiting a PR, please do not forget to update requirements.txt. You can use the following command to save yourself the trouble
         ```pip freeze > requirements.txt```
 
 4. Now, you can run the project by using the command 
@@ -98,11 +92,6 @@ Follow the steps below to set-up the project on your local machine,
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 
@@ -133,5 +122,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Mail us at - gdsc@jgec.ac.in
+Mail us at - gdsc@jgec.ac.in 
+<br>
 Mail maintainer at - ap2301@it.jgec.ac.in
