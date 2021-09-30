@@ -69,12 +69,12 @@ The dependancies currently consist of the following,
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Follow the steps below to set-up the project on your local machine,
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+1) Python (3.6 and above)
+2) pip (python package installer)
 
 - npm
   ```sh
@@ -83,19 +83,18 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Start by creating a virtual environment for the project by using the following command,
+``` python -m venv <name>```
+2. Activate the virtual environment by using the following command,
+``` <name>/scripts/activate```
+3. Install required dependencies from requirements.txt using the following command,
+```pip install -r requirements.txt```
+
+Tip: If you install new dependencies while submiting a PR, please do not forget to update requiremnts.txt. You can use the following command to save yourself the trouble
+```pip freeze > requirements.txt```
+
+4. Now, you can run the project by using the command 
+```python app.py```
 
 <!-- USAGE EXAMPLES -->
 
@@ -135,3 +134,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Mail us at - gdsc@jgec.ac.in
+Mail maintainer at - ap2301@it.jgec.ac.in
