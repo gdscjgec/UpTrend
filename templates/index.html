@@ -6,9 +6,66 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- Bootstrap import -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+        <!-- js import -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- aditional imports -->
+        <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/cover/">
+
+        <!-- CSS imports -->
         <link rel="stylesheet" href="static/css/styles.css">
     </head>
+
     <body>
-        <h3>Index Page ! Start building contributors!</h3>
+        <!-- <h3>Index Page ! Start building contributors!</h3> -->
+
+        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+             <header class="masthead mb-auto">
+               <div class="inner">
+                 <h3 class="masthead-brand">Uptrend</h3>
+                 <nav class="nav nav-masthead justify-content-center">
+                   <a class="nav-link active mr-3" href="#">Home</a>
+                   <div class="dropdown">
+                      <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#">Categories</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Youtube</a>
+                        <a class="dropdown-item" href="#">Reddit</a>
+                        <a class="dropdown-item" href="#">Instagram</a>
+                        <a class="dropdown-item" href="#">CNN Stories</a>
+                      </div>
+                    </div>
+                 </nav>
+               </div>
+             </header>
+
+          <main role="main" class="inner cover">
+             <center>
+               <h1 class="cover-heading">About UpTrend</h1>
+               <p class="lead">The motive of this project is to scrape trending stuff from top websites which are mostly visited on a daily basis by users and show them in a single page application consisting of links to trending stuff. For the purpose of hacktoberfest we will be currently focusing on scraping trending data from - </p>
+             </center>
+               <ol class="lead">
+                  <a  href="#">   <li>Youtube </li> </a>
+                  <a  href="#">   <li>Reddit </li> </a>
+                  <a  href="#">   <li>Instagram </li> </a>
+                  <a  href="#">   <li>CNN top stories </li> </a>
+               </ol>
+               <p class="lead">And more will be added with progress........</p>
+          </main>
+
+           <footer class="mastfoot mt-auto">
+             <div class="inner">
+               <center><link rel="icon" type="image/png" href="static/g.png"/><p><a href="https://github.com/gdscjgec">Google Developer Student Clubs - JGEC </a>  :  <a href="https://github.com/gdscjgec/UpTrend"> UpTrend</a></p> </center>
+              </div>
+              </footer>
+          </div>
+
+
     </body>
 </html>
